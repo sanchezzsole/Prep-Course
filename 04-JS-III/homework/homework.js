@@ -181,11 +181,7 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-
-  // while (n.length < 2){
-
-  // }
-
+  
   var largoDelNum = n.toString();
   var elPrimeroEsNueve = false;
     if (largoDelNum.charAt(0) === "9"){
